@@ -1,0 +1,17 @@
+//
+//  LoadingGifViewController.h
+//  YunRuoTest
+//
+//  Created by Davin on 2020/7/28.
+//  Copyright © 2020 WenZheng. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface LoadingGifViewController : UIViewController
+
+@end
+
+NS_ASSUME_NONNULL_END
