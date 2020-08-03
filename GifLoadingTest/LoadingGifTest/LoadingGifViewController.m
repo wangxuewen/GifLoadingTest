@@ -10,6 +10,7 @@
 #import "LoadingGifCollectionViewCell.h"
 #import "Masonry.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/SDImageCache.h>
 #import <MJRefresh/MJRefresh.h>
 
 #define GIFURL @"https://test-img.caochangjihe.com/img/20200724172007-9e6bb42b-188b-452f-a22a-beaee4dd58a71595582407684.gif"
@@ -179,7 +180,7 @@
     [super didReceiveMemoryWarning];
     NSLog(@"#############内存爆了，清理下sd缓存############");
     [[SDWebImageManager sharedManager] cancelAll];
-    [[SDWebImageManager sharedManager].imageCache clearMemory];
+    [[SDWebImageManager sharedManager].imageCache clearWithCacheType:SDImageCacheTypeAll completion:nil];
     
 }
 
