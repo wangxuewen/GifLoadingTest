@@ -20,6 +20,8 @@
 		6C4B8C8924D53AA20065B1D5 /* LoadingGifCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B8C8524D53AA20065B1D5 /* LoadingGifCollectionViewCell.m */; };
 		6C4B8C8A24D53AA20065B1D5 /* LoadingGifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B8C8624D53AA20065B1D5 /* LoadingGifViewController.m */; };
 		6C4B8C9124D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B8C9024D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m */; };
+		6C4B8C9524D7B9240065B1D5 /* 优化后.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6C4B8C9324D7B9240065B1D5 /* 优化后.gif */; };
+		6C4B8C9624D7B9240065B1D5 /* 优化前.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6C4B8C9424D7B9240065B1D5 /* 优化前.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		6C4B8C8824D53AA20065B1D5 /* LoadingGifViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingGifViewController.h; sourceTree = "<group>"; };
 		6C4B8C8F24D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageView+GifLoading.h"; sourceTree = "<group>"; };
 		6C4B8C9024D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImageView+GifLoading.m"; sourceTree = "<group>"; };
+		6C4B8C9324D7B9240065B1D5 /* 优化后.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "优化后.gif"; sourceTree = "<group>"; };
+		6C4B8C9424D7B9240065B1D5 /* 优化前.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "优化前.gif"; sourceTree = "<group>"; };
 		C47B46717DD562E9C577C2C3 /* Pods-GifLoadingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifLoadingTest.release.xcconfig"; path = "Target Support Files/Pods-GifLoadingTest/Pods-GifLoadingTest.release.xcconfig"; sourceTree = "<group>"; };
 		D651E8A6A3DC1B4E10ECE421 /* libPods-GifLoadingTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifLoadingTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,6 +131,7 @@
 				6C4B8C5524D539EF0065B1D5 /* ViewController.h */,
 				6C4B8C5624D539EF0065B1D5 /* ViewController.m */,
 				6C4B8C8424D53AA20065B1D5 /* LoadingGifTest */,
+				6C4B8C9224D7B9240065B1D5 /* Resource */,
 				6C4B8C5824D539EF0065B1D5 /* Main.storyboard */,
 				6C4B8C5B24D539F00065B1D5 /* Assets.xcassets */,
 				6C4B8C5D24D539F00065B1D5 /* LaunchScreen.storyboard */,
@@ -165,6 +170,15 @@
 				6C4B8C9024D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m */,
 			);
 			path = LoadingGifTest;
+			sourceTree = "<group>";
+		};
+		6C4B8C9224D7B9240065B1D5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6C4B8C9324D7B9240065B1D5 /* 优化后.gif */,
+				6C4B8C9424D7B9240065B1D5 /* 优化前.gif */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		D6EE0984969A3923428C0ABE /* Frameworks */ = {
@@ -291,7 +305,9 @@
 			files = (
 				6C4B8C5F24D539F00065B1D5 /* LaunchScreen.storyboard in Resources */,
 				6C4B8C5C24D539F00065B1D5 /* Assets.xcassets in Resources */,
+				6C4B8C9624D7B9240065B1D5 /* 优化前.gif in Resources */,
 				6C4B8C5A24D539EF0065B1D5 /* Main.storyboard in Resources */,
+				6C4B8C9524D7B9240065B1D5 /* 优化后.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
