@@ -19,6 +19,7 @@
 		6C4B8C7724D539F00065B1D5 /* GifLoadingTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B8C7624D539F00065B1D5 /* GifLoadingTestUITests.m */; };
 		6C4B8C8924D53AA20065B1D5 /* LoadingGifCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B8C8524D53AA20065B1D5 /* LoadingGifCollectionViewCell.m */; };
 		6C4B8C8A24D53AA20065B1D5 /* LoadingGifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B8C8624D53AA20065B1D5 /* LoadingGifViewController.m */; };
+		6C4B8C9124D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B8C9024D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		6C4B8C8624D53AA20065B1D5 /* LoadingGifViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingGifViewController.m; sourceTree = "<group>"; };
 		6C4B8C8724D53AA20065B1D5 /* LoadingGifCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingGifCollectionViewCell.h; sourceTree = "<group>"; };
 		6C4B8C8824D53AA20065B1D5 /* LoadingGifViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingGifViewController.h; sourceTree = "<group>"; };
+		6C4B8C8F24D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageView+GifLoading.h"; sourceTree = "<group>"; };
+		6C4B8C9024D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImageView+GifLoading.m"; sourceTree = "<group>"; };
 		C47B46717DD562E9C577C2C3 /* Pods-GifLoadingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifLoadingTest.release.xcconfig"; path = "Target Support Files/Pods-GifLoadingTest/Pods-GifLoadingTest.release.xcconfig"; sourceTree = "<group>"; };
 		D651E8A6A3DC1B4E10ECE421 /* libPods-GifLoadingTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifLoadingTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -158,6 +161,8 @@
 				6C4B8C8624D53AA20065B1D5 /* LoadingGifViewController.m */,
 				6C4B8C8724D53AA20065B1D5 /* LoadingGifCollectionViewCell.h */,
 				6C4B8C8524D53AA20065B1D5 /* LoadingGifCollectionViewCell.m */,
+				6C4B8C8F24D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.h */,
+				6C4B8C9024D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m */,
 			);
 			path = LoadingGifTest;
 			sourceTree = "<group>";
@@ -353,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4B8C9124D7B7AF0065B1D5 /* FLAnimatedImageView+GifLoading.m in Sources */,
 				6C4B8C8A24D53AA20065B1D5 /* LoadingGifViewController.m in Sources */,
 				6C4B8C5724D539EF0065B1D5 /* ViewController.m in Sources */,
 				6C4B8C5124D539EF0065B1D5 /* AppDelegate.m in Sources */,
